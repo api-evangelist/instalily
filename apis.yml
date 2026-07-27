@@ -1,8 +1,26 @@
 aid: instalily
 name: Instalily
-description: Instalily is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'InstaLILY builds Lily, an AI "Forward Deployed Engineer" for the physical
+  and regulated economy. Lily learns how an enterprise operates, builds custom software
+  agents for high-friction operational work such as quoting, routing, field service,
+  and approvals, and runs them inside the systems companies already use including SAP,
+  NetSuite, Epicor, Salesforce, HubSpot, and Snowflake. InstaLILY serves industrial
+  distribution and MRO, manufacturing and OEM, field service, healthcare and pharma,
+  and private equity. The company is headquartered at 455 Broadway, New York, and is
+  backed by Insight Partners. No public developer API is currently published.'
 url: https://raw.githubusercontent.com/api-evangelist/instalily/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://instalily.ai/og.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- AI Agents
+- Enterprise Software
+- Automation
+- Workflow Automation
+- Field Service
+- Manufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,18 @@ maintainers:
 common:
 - type: Website
   url: https://instalily.ai/
+- type: Blog
+  url: https://instalily.ai/ai-dispatch
+- type: GitHubOrganization
+  url: https://github.com/Instalily
+- type: PrivacyPolicy
+  url: https://instalily.ai/privacy
+- type: TermsOfService
+  url: https://instalily.ai/terms
+- type: DomainSecurity
+  url: security/instalily-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
